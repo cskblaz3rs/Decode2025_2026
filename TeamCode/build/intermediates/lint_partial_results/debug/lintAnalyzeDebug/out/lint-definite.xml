@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 8.7.0" type="incidents">
+
+    <incident
+        id="DefaultLocale"
+        severity="warning"
+        message="Implicitly using the default locale is a common source of bugs: Use `String.format(Locale, ...)` instead">
+        <location
+            file="${:TeamCode*debug*MAIN*sourceProvider*0*javaDir*0}/com/ftc/cskblazers/intothedeep/components/AprilTagsCam.java"
+            line="43"
+            column="31"
+            startOffset="1717"
+            endLine="43"
+            endColumn="104"
+            endOffset="1790"/>
+    </incident>
+
+    <incident
+        id="DefaultLocale"
+        severity="warning"
+        message="Implicitly using the default locale is a common source of bugs: Use `String.format(Locale, ...)` instead">
+        <location
+            file="${:TeamCode*debug*MAIN*sourceProvider*0*javaDir*0}/com/ftc/cskblazers/intothedeep/components/AprilTagsCam.java"
+            line="44"
+            column="31"
+            startOffset="1823"
+            endLine="44"
+            endColumn="140"
+            endOffset="1932"/>
+    </incident>
+
+    <incident
+        id="DefaultLocale"
+        severity="warning"
+        message="Implicitly using the default locale is a common source of bugs: Use `String.format(Locale, ...)` instead">
+        <location
+            file="${:TeamCode*debug*MAIN*sourceProvider*0*javaDir*0}/com/ftc/cskblazers/intothedeep/components/AprilTagsCam.java"
+            line="45"
+            column="31"
+            startOffset="1965"
+            endLine="45"
+            endColumn="148"
+            endOffset="2082"/>
+    </incident>
+
+    <incident
+        id="DefaultLocale"
+        severity="warning"
+        message="Implicitly using the default locale is a common source of bugs: Use `String.format(Locale, ...)` instead">
+        <location
+            file="${:TeamCode*debug*MAIN*sourceProvider*0*javaDir*0}/com/ftc/cskblazers/intothedeep/components/AprilTagsCam.java"
+            line="46"
+            column="31"
+            startOffset="2115"
+            endLine="46"
+            endColumn="168"
+            endOffset="2252"/>
+    </incident>
+
+    <incident
+        id="DefaultLocale"
+        severity="warning"
+        message="Implicitly using the default locale is a common source of bugs: Use `String.format(Locale, ...)` instead">
+        <location
+            file="${:TeamCode*debug*MAIN*sourceProvider*0*javaDir*0}/com/ftc/cskblazers/intothedeep/components/AprilTagsCam.java"
+            line="48"
+            column="31"
+            startOffset="2302"
+            endLine="48"
+            endColumn="84"
+            endOffset="2355"/>
+    </incident>
+
+    <incident
+        id="DefaultLocale"
+        severity="warning"
+        message="Implicitly using the default locale is a common source of bugs: Use `String.format(Locale, ...)` instead">
+        <location
+            file="${:TeamCode*debug*MAIN*sourceProvider*0*javaDir*0}/com/ftc/cskblazers/intothedeep/components/AprilTagsCam.java"
+            line="49"
+            column="31"
+            startOffset="2388"
+            endLine="49"
+            endColumn="117"
+            endOffset="2474"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of com.acmerobotics.roadrunner:core than 0.5.6 is available: 1.0.1">
+        <fix-replace
+            description="Change to 1.0.1"
+            family="Update versions"
+            oldString="0.5.6"
+            replacement="1.0.1"
+            priority="0"/>
+        <location
+            file="${:TeamCode*projectDir}/build.gradle"
+            line="38"
+            column="20"
+            startOffset="1093"
+            endLine="38"
+            endColumn="60"
+            endOffset="1133"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of com.acmerobotics.roadrunner:actions than 0.5.6 is available: 1.0.1">
+        <fix-replace
+            description="Change to 1.0.1"
+            family="Update versions"
+            oldString="0.5.6"
+            replacement="1.0.1"
+            priority="0"/>
+        <location
+            file="${:TeamCode*projectDir}/build.gradle"
+            line="39"
+            column="20"
+            startOffset="1153"
+            endLine="39"
+            endColumn="63"
+            endOffset="1196"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of com.acmerobotics.dashboard:dashboard than 0.4.14 is available: 0.5.1">
+        <fix-replace
+            description="Change to 0.5.1"
+            family="Update versions"
+            oldString="0.4.14"
+            replacement="0.5.1"
+            priority="0"/>
+        <location
+            file="${:TeamCode*projectDir}/build.gradle"
+            line="40"
+            column="20"
+            startOffset="1216"
+            endLine="40"
+            endColumn="65"
+            endOffset="1261"/>
+    </incident>
+
+</incidents>

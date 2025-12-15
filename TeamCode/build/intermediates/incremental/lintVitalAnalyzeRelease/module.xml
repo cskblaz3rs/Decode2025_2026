@@ -1,0 +1,19 @@
+<lint-module
+    format="1"
+    dir="/Users/ravimannava/Downloads/FtcRobotController-11.0/TeamCode"
+    name=":TeamCode"
+    type="APP"
+    maven="FtcRobotController-11.0:TeamCode:unspecified"
+    agpVersion="8.7.0"
+    buildFolder="build"
+    bootClassPath="/Users/ravimannava/Library/Android/sdk/platforms/android-34/android.jar:/Users/ravimannava/Library/Android/sdk/build-tools/34.0.0/core-lambda-stubs.jar"
+    javaSourceLevel="1.8"
+    compileTarget="android-34"
+    neverShrinking="true">
+  <lintOptions
+      abortOnError="true"
+      absolutePaths="true"
+      checkReleaseBuilds="true"
+      explainIssues="true"/>
+  <variant name="release"/>
+</lint-module>
